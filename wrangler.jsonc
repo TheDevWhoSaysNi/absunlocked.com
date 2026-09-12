@@ -2,8 +2,13 @@
   "$schema": "https://json.schemastore.org/wrangler.json",
   "name": "absunlocked",
   "compatibility_date": "2026-09-12",
+  "workers_dev": true,
   "preview_urls": true,
   "assets": {
     "directory": "./public"
-  }
+  },
+  "routes": [
+    { "pattern": "absunlocked.com", "custom_domain": true },
+    { "pattern": "www.absunlocked.com", "custom_domain": true }
+  ]
 }
